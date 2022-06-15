@@ -1,8 +1,19 @@
 import "./App.css";
-import React from "react";
+import React, { useState } from "react";
 import AuthForm from "./components/AuthForm";
 
 function App() {
+  const [form, setState] = useState({});
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setState({ ...form, [name]: value });
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    console.log(form);
+  };
   return (
     <React.Fragment>
       <header
@@ -52,7 +63,10 @@ function App() {
             </div>
 
             <div className="flex mt-8 lg:w-1/2 lg:justify-end lg:mt-0">
-              <AuthForm />
+              <AuthForm
+                handleChange={handleChange}
+                handleSubmit={handleSubmit}
+              />
             </div>
           </div>
         </div>
