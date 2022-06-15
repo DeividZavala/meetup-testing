@@ -48,7 +48,7 @@ function App() {
 
           <div className='flex flex-col items-center py-6 lg:h-[32rem] lg:flex-row'>
             <div className='lg:w-1/2'>
-              <h2 className='text-4xl font-semibold text-gray-100'>5</h2>
+              <h2 className='text-4xl font-semibold text-gray-100'>David Zavala</h2>
 
               <h3 className='text-2xl font-semibold text-gray-100'>
                 Hello <span className='text-blue-400'>Guest</span>
