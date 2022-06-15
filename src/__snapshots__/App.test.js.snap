@@ -1,0 +1,234 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders learn react link 1`] = `
+<body>
+  <div>
+    <header
+      class="bg-gray-900"
+    >
+      <div
+        class="container px-6 mx-auto"
+      >
+        <nav
+          class="flex flex-col py-2 sm:flex-row sm:justify-between sm:items-center"
+        >
+          <div>
+            <a
+              class="text-2xl font-semibold text-white hover:text-gray-300"
+              href="/"
+            >
+              Brand
+            </a>
+          </div>
+          <div
+            class="flex items-center mt-2 -mx-2 sm:mt-0"
+          >
+            <a
+              class="px-3 py-1 text-sm font-semibold text-white transition-colors duration-200 transform border-2 rounded-md hover:bg-gray-700"
+              href="/"
+            >
+              Sign In
+            </a>
+            <a
+              class="px-3 py-2 mx-2 text-sm font-semibold text-white transition-colors duration-200 transform bg-black rounded-md hover:bg-gray-800"
+              href="/"
+            >
+              Sign Up
+            </a>
+          </div>
+        </nav>
+        <div
+          class="flex flex-col items-center py-6 lg:h-[32rem] lg:flex-row"
+        >
+          <div
+            class="lg:w-1/2"
+          >
+            <h2
+              class="text-4xl font-semibold text-gray-100"
+            >
+              Brand
+            </h2>
+            <h3
+              class="text-2xl font-semibold text-gray-100"
+            >
+              Hello 
+              <span
+                class="text-blue-400"
+              >
+                Guest
+              </span>
+            </h3>
+            <p
+              class="mt-3 text-gray-100"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing.
+            </p>
+          </div>
+          <div
+            class="flex mt-8 lg:w-1/2 lg:justify-end lg:mt-0"
+          >
+            <div
+              class="w-full lg:w-3/4 bg-white rounded-lg"
+            >
+              <div
+                class="py-12 px-5 text-center"
+              >
+                <h2
+                  class="text-2xl font-semibold text-gray-700 fo"
+                >
+                  Sign In
+                </h2>
+                <form>
+                  <div
+                    class="mt-4"
+                  >
+                    <input
+                      aria-label="Email address"
+                      class="block w-full px-4 py-2 text-gray-700 placeholder-gray-400 bg-white border rounded-md focus:border-blue-400 focus:ring-opacity-40 focus:ring-blue-300 focus:outline-none focus:ring"
+                      name="email"
+                      placeholder="Email address"
+                      type="email"
+                    />
+                    <input
+                      aria-label="Password"
+                      class="block w-full px-4 py-2 mt-4 text-gray-700 placeholder-gray-400 bg-white border rounded-md focus:border-blue-400 focus:ring-opacity-40 focus:ring-blue-300 focus:outline-none focus:ring"
+                      name="password"
+                      placeholder="Password"
+                      type="password"
+                    />
+                  </div>
+                  <div
+                    class="flex items-center justify-between mt-4"
+                  >
+                    <a
+                      class="text-sm text-gray-600 hover:underline"
+                      href="/"
+                    >
+                      Forget Password?
+                    </a>
+                    <button
+                      class="px-4 py-2 font-semibold text-white transition-colors duration-200 transform bg-gray-900 rounded-md hover:bg-gray-800 focus:outline-none focus:bg-gray-800"
+                      type="submit"
+                    >
+                      Login
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section
+      class="container p-6 mx-auto bg-white"
+    >
+      <h2
+        class="text-xl font-medium text-gray-800 capitalize md:text-2xl"
+      >
+        Our Team
+      </h2>
+      <div
+        class="flex items-center justify-center"
+      >
+        <div
+          class="grid gap-8 mt-8 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"
+        >
+          <div
+            class="w-full max-w-xs text-center"
+          >
+            <img
+              alt="avatar"
+              class="object-cover object-center w-full h-48 mx-auto rounded-lg"
+              src="https://images.unsplash.com/photo-1493863641943-9b68992a8d07?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=739&q=80"
+            />
+            <div
+              class="mt-2"
+            >
+              <h3
+                class="text-lg font-medium text-gray-700"
+              >
+                Ahmed Omer
+              </h3>
+              <span
+                class="mt-1 font-medium text-gray-600"
+              >
+                CEO
+              </span>
+            </div>
+          </div>
+          <div
+            class="w-full max-w-xs text-center"
+          >
+            <img
+              alt="avatar"
+              class="object-cover object-center w-full h-48 mx-auto rounded-lg"
+              src="https://images.unsplash.com/photo-1516756587022-7891ad56a8cd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80"
+            />
+            <div
+              class="mt-2"
+            >
+              <h3
+                class="text-lg font-medium text-gray-700 "
+              >
+                Jane Doe
+              </h3>
+              <span
+                class="mt-1 font-medium text-gray-600"
+              >
+                Co-founder
+              </span>
+            </div>
+          </div>
+          <div
+            class="w-full max-w-xs text-center"
+          >
+            <img
+              alt="avatar"
+              class="object-cover object-center w-full h-48 mx-auto rounded-lg"
+              src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=731&q=80"
+            />
+            <div
+              class="mt-2"
+            >
+              <h3
+                class="text-lg font-medium text-gray-700 "
+              >
+                Steve Ben
+              </h3>
+              <span
+                class="mt-1 font-medium text-gray-600"
+              >
+                UI/UX
+              </span>
+            </div>
+          </div>
+          <div
+            class="w-full max-w-xs text-center"
+          >
+            <img
+              alt="avatar"
+              class="object-cover object-center w-full h-48 mx-auto rounded-lg"
+              src="https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80"
+            />
+            <div
+              class="mt-2"
+            >
+              <h3
+                class="text-lg font-medium text-gray-700"
+              >
+                Patterson Johnson
+              </h3>
+              <span
+                class="mt-1 font-medium text-gray-600"
+              >
+                Software Engineer
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</body>
+`;
