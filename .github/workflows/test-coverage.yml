@@ -29,6 +29,6 @@ jobs:
     - name: Installing Dependencies
       run: npm ci
     - name: Running tests
-      run: npm test
+      run: npm run test:CI
     - name: Uploading coverage reports
       uses: codecov/codecov-action@v3.1.0
