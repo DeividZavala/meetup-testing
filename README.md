@@ -1,3 +1,5 @@
+[![codecov](https://codecov.io/gh/DeividZavala/meetup-testing/branch/main/graph/badge.svg?token=vjdLllLLPS)](https://codecov.io/gh/DeividZavala/meetup-testing)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
