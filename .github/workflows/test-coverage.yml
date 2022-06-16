@@ -28,3 +28,4 @@ jobs:
         cache: 'npm'
     - run: npm ci
     - run: npm run test:CI
+    - uses: codecov/codecov-action@v3.1.0
